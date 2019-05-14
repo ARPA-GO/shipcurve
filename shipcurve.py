@@ -1,25 +1,14 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[25]:
-
-
-# get_ipython().run_line_magic('matplotlib', 'inline')
 import sys
 import tkinter
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
 from tkinter import *
-import matplotlib
 
-matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 import pandas as pd
-import pandas
-from pandas import Series, DataFrame
+from pandas import DataFrame
 
 
 def WL(s, w):  # s는 staion no, w는 W.L.no
@@ -1037,9 +1026,6 @@ def WLlist(w, h, f, L, B):
     return result
 
 
-import pandas as pd
-
-
 def Calculation_sheet(a, L, B):
     w = a + 1
     h = WL(7, -1) - WL(6, -1)
@@ -1048,7 +1034,7 @@ def Calculation_sheet(a, L, B):
     j = WL(25, -1) - WL(24, -1)
     data = WLlist(w, h, f, L, B)
 
-    result = pd.DataFrame(data)
+    result = DataFrame(data)
 
     result['배수용적 (▽mld.)'] = DISLIST2(w, h, f, t, j)
     result['배수량 (△mld.)'] = DISLIST(w, h, f, t, j)
@@ -1246,8 +1232,3 @@ class ARPAGO(object):
 
 if __name__ == "__main__":
     ARPAGO()
-
-# In[ ]:
-
-
-# In[ ]:
