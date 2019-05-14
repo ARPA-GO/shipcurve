@@ -4,7 +4,7 @@
 # In[25]:
 
 
-get_ipython().run_line_magic('matplotlib', 'inline')
+# get_ipython().run_line_magic('matplotlib', 'inline')
 import sys
 import tkinter
 import tkinter as tk
