@@ -10,6 +10,10 @@ from matplotlib.figure import Figure
 import pandas as pd
 from pandas import DataFrame
 
+# 송상호 개멋있음
+# 사실 이 캡스톤 아이디어 내꺼임
+# 얘네들 개못함 병신들 ㅋㅋ
+
 
 def WL(s, w):  # s는 staion no, w는 W.L.no
     result = dataoffset.iloc[s + 2, w + 2]
