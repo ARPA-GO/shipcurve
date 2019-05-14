@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2874863c-b64e-444e-a58e-ee05c699e484" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/arpago.py" beforeDir="false" afterPath="$PROJECT_DIR$/arpago.py" afterDir="false" />
-    </list>
+    <list default="true" id="2874863c-b64e-444e-a58e-ee05c699e484" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +67,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
