@@ -14,6 +14,12 @@ from pandas import DataFrame
 # 사실 이 캡스톤 아이디어 내꺼임
 # 얘네들 개못함 병신들 ㅋㅋ
 
+# 찐따들 ㅋㅋㅋ
+# 엿이나 먹어라 뻐큐
+# 식충이들
+# 파이썬 공부좀 해라
+# ㅗㅗㅗㅗㅗㅗ
+
 
 def WL(s, w):  # s는 staion no, w는 W.L.no
     result = dataoffset.iloc[s + 2, w + 2]
