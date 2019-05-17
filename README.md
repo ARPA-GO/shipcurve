@@ -21,23 +21,30 @@ Among them, **hydrostatic curve** which is based on all ship calculations was pr
 2. .exe file  
   User wants to use an exe file in the form of a program, can download it from the url below.
   https://drive.google.com/open?id=1QNXKc0-pwct7xsZWkVGubp9pcGPgKCwM
-  (Go to this public drive site to download files which are not uploaded in the repository due to large file storage.)  
+  Go to this public drive site to download files which are not uploaded in the repository due to large file storage. 
+  > It may take a long time. Please understand.
   
 ## Run Program  
 **Please refer to the manual for details.**  
-
-1. User have offset table 
 >Let me explain by assuming that you use .exe file  
-
-
-2. User no have offset table
-
+* User have offset table 
+  1. Click ***Input File*** and select offset table
+  2. Write ***waterline NO. , Length Between Perpendiculars and Breath***
+  3. According to the user's purpose, click ***Calculation Sheet*** or ***Hydrostatic Curve***
+  
+* User no have offset table
+  1. Use ***Lisp*** to create offset table
+  > Refer to manual page.(이 부분에 리습 설명서 쪽수 적으면 좋을듯)
+  2. As above, Click ***Input File*** and select offset table
+  3. Write ***waterline NO. , Length Between Perpendiculars and Breath***
+  4. According to the user's purpose, click ***Calculation Sheet*** or ***Hydrostatic Curve***
+  
 ## Participant
-*Lee Sol Mi   (Bachelor of Science in Naval Architecture and Ocean Engineering)  
-*Kang JungMin (Bachelor of Science in Naval Architecture and Ocean Engineering)  
-*김은지  (Bachelor of Science in Naval Architecture and Ocean Engineering)  
-*Kim HyunHi   (Bachelor of Science in Naval Architecture and Ocean Engineering)  
-*유희정  (Bachelor of Science in Naval Architecture and Ocean Engineering)  
+* Lee Sol Mi   (Bachelor of Science in Naval Architecture and Ocean Engineering)  
+* Kang JungMin (Bachelor of Science in Naval Architecture and Ocean Engineering)  
+* Kim EunJi    (Bachelor of Science in Naval Architecture and Ocean Engineering)  
+* Kim HyunHi   (Bachelor of Science in Naval Architecture and Ocean Engineering)  
+* 유희정  (Bachelor of Science in Naval Architecture and Ocean Engineering)  
 
 ## Acknowledgments
 Thank you for mentor
