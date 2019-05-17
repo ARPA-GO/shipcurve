@@ -20,7 +20,7 @@ Among them, **hydrostatic curve** which is based on all ship calculations was pr
   User wants to use python, should use editing programs such as jupyter notebook or pycharm.
 2. .exe file  
   User wants to use an exe file in the form of a program, can download it from the url below.
-  https://drive.google.com/open?id=1QNXKc0-pwct7xsZWkVGubp9pcGPgKCwM
+  https://drive.google.com/open?id=1QNXKc0-pwct7xsZWkVGubp9pcGPgKCwM  
   Go to this public drive site to download files which are not uploaded in the repository due to large file storage. 
   > It may take a long time. Please understand.
   
