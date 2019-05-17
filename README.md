@@ -40,10 +40,10 @@ Among them, **hydrostatic curve** which is based on all ship calculations was pr
   4. According to the user's purpose, click ***Calculation Sheet*** or ***Hydrostatic Curve***
   
 ## Participant
-* Lee Sol Mi   (Bachelor of Science in Naval Architecture and Ocean Engineering)  
-* Kang JungMin (Bachelor of Science in Naval Architecture and Ocean Engineering)  
-* Kim EunJi    (Bachelor of Science in Naval Architecture and Ocean Engineering)  
-* Kim HyunHi   (Bachelor of Science in Naval Architecture and Ocean Engineering)  
+* solmi LEE    (Bachelor of Science in Naval Architecture and Ocean Engineering)  
+* jungmin KANG (Bachelor of Science in Naval Architecture and Ocean Engineering)  
+* eunji KIM    (Bachelor of Science in Naval Architecture and Ocean Engineering)  
+* hyunji KIM   (Bachelor of Science in Naval Architecture and Ocean Engineering)  
 * 유희정  (Bachelor of Science in Naval Architecture and Ocean Engineering)  
 
 ## Acknowledgments
