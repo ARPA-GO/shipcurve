@@ -4,7 +4,7 @@ These are to calculate the ship's hydrostatic curves.
 ## Overview
 
 There are already many commercial shipping programs such as Foran, Aveva Marine.  
-But students and Start-up Companyfind it difficult to use these programs because of their high prices.  
+But students and Start-up Company find it difficult to use these programs because of their high prices.  
 And also we cannot easily use the program before it is educated.  
 To solve this problem, we developed a library.  
 **ARPA-GO** is python based ship calculation open source library.   
