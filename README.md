@@ -47,4 +47,4 @@ Among them, **hydrostatic curve** which is based on all ship calculations was pr
 * huijeong YU  (Bachelor of Science in Naval Architecture and Ocean Engineering)  
 
 ## Acknowledgments
-Thank you for mentor
+Thank you for mentor (sangggho)
