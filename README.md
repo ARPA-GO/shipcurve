@@ -27,12 +27,12 @@ Among them, **hydrostatic curve** which is based on all ship calculations was pr
 ## Run Program  
 **Please refer to the manual for details.**  
 >Let me explain by assuming that you use .exe file  
-* User have offset table 
+* User having offset table 
   1. Click ***Input File*** and select offset table
   2. Write ***waterline NO. , Length Between Perpendiculars and Breath***
   3. According to the user's purpose, click ***Calculation Sheet*** or ***Hydrostatic Curve***
   
-* User no have offset table
+* User not having offset table
   1. Use ***Lisp*** to create offset table
   > Refer to manual page.(이 부분에 리습 설명서 쪽수 적으면 좋을듯)
   2. As above, Click ***Input File*** and select offset table
@@ -44,7 +44,7 @@ Among them, **hydrostatic curve** which is based on all ship calculations was pr
 * jungmin KANG (Bachelor of Science in Naval Architecture and Ocean Engineering)  
 * eunji KIM    (Bachelor of Science in Naval Architecture and Ocean Engineering)  
 * hyunji KIM   (Bachelor of Science in Naval Architecture and Ocean Engineering)  
-* 유희정  (Bachelor of Science in Naval Architecture and Ocean Engineering)  
+* huijeong YU  (Bachelor of Science in Naval Architecture and Ocean Engineering)  
 
 ## Acknowledgments
 Thank you for mentor
