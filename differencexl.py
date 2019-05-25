@@ -1,7 +1,7 @@
 import pandas as pd
 
 def excel_diff(df_OLD, df_NEW):
-    # 차이점 나타내기
+
     dfDiff = df_NEW.copy()
     newRows = []
 
