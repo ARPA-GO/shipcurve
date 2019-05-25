@@ -29,16 +29,15 @@ Among them, **hydrostatic curve** which is based on all ship calculations was pr
 >Let me explain by assuming that you use .exe file  
 * User having offset table 
   1. Click ***Input File*** and select offset table
-  2. Write ***waterline NO. , Length Between Perpendiculars and Breath***
-  3. According to the user's purpose, click ***Calculation Sheet*** or ***Hydrostatic Curve***
+  2. According to the user's purpose, click ***Calculation Sheet*** or ***Hydrostatic Curve***
   
 * User not having offset table
   1. Use ***Lisp*** to create offset table
   > Refer to manual page.(이 부분에 리습 설명서 쪽수 적으면 좋을듯)
   2. As above, Click ***Input File*** and select offset table
-  3. Write ***waterline NO. , Length Between Perpendiculars and Breath***
-  4. According to the user's purpose, click ***Calculation Sheet*** or ***Hydrostatic Curve***
-  
+  3. According to the user's purpose, click ***Calculation Sheet*** or ***Hydrostatic Curve***  
+#### We add 'comparison' button  
+  This function create new excel file that showing difference compare to two excel files when file is modified by user.
 ## Participant
 * solmi LEE    (Bachelor of Science in Naval Architecture and Ocean Engineering)  
 * jungmin KANG (Bachelor of Science in Naval Architecture and Ocean Engineering)  
