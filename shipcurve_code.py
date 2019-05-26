@@ -877,7 +877,7 @@ def Hydrostatic_curve():
     y = range(2,w)
     plt.yticks(range(2,w,2))
     plt.xticks(range(-5,150,5))
-    x = [DIS(a+1,h,f,t,j)/8000for a in y]#축척 1 = 2000t
+    x = [DIS(a+1,h,f,t,j)/8000 for a in y]#축척 1 = 2000t
     z = [DIS(a+1,h,f,t,j)/8000/1.025 for a in y]#축척 1 = 2000t
     e = [KB(a+1,h,f,t,j) for a in y] #축척 1 = 1m
     g = [Aw(a+1,h)/600 for a in y]#축척 1 = 200
