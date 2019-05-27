@@ -884,7 +884,7 @@ def BMLIST(w, h, f, t, j):
         result.append(BM(a, h, f, t, j))
         a = a - 2
     result.reverse()
-    return result  # 근데 부가물 안더해서 값이 일단은 달라
+    return result  
 
 
 def KMLIST(w, h, f, t, j):
@@ -905,7 +905,7 @@ def LCBLIST(w, h, f, t, j, L):
         a = a - 2
     result.reverse()
 
-    return result  # 부가물 안더해서 값이 일단은 달라!
+    return result  
 
 
 def LCFLIST(w, h, t, j, L):
@@ -1136,8 +1136,8 @@ class ARPAGO(object):
 
     def __init__(self):
         root = tk.Tk()
-        root.title("ARPA-GO")  # exe실행창 이름
-        root.geometry("750x150")  # exe실행창 크기
+        root.title("ARPA-GO")  # exe excution window name
+        root.geometry("750x150")  # exe excution window size
 
         # Hydrostatic Curve Button
         bt_HydroC = tk.Button(root, text="Hydrostatic Curve", command=self.get_window_hydrostaticC)
@@ -1219,7 +1219,7 @@ class ARPAGO(object):
 
     def get_window_ComparisonXlSheet(self):
         root = tk.Tk()
-        root.title("Comparison between results")  # exe실행창 이름
+        root.title("Comparison between results")  
 
         # 1st Excel File
         frm1 = ttk.Frame(root)
@@ -1229,8 +1229,8 @@ class ARPAGO(object):
 
         self.filename_var1 = tkinter.StringVar()
 
-        openbt_1stxl = ttk.Button(frm1, text="Result1", command=self.select_1stxl)  # 이름
-        openbt_1stxl_ttp = CreateToolTip(openbt_1stxl, "Select Result1")  # 버튼클릭시 나타나는 설명창
+        openbt_1stxl = ttk.Button(frm1, text="Result1", command=self.select_1stxl)  # name
+        openbt_1stxl_ttp = CreateToolTip(openbt_1stxl, "Select Result1")  # explanation window
         openbt_1stxl.grid(column=1, row=2, sticky=tkinter.W)
         openbt_1stxl['command'] = self.select_1stxl
         display_box1 = ttk.Label(frm1, textvariable=self.filename_var1, width=30)
@@ -1244,8 +1244,8 @@ class ARPAGO(object):
 
         self.filename_var2 = tkinter.StringVar()
 
-        openbt_2ndxl = ttk.Button(frm2, text="Result2", command=self.select_2ndxl)  # 이름
-        openbt_2ndxl_ttp = CreateToolTip(openbt_2ndxl, "Select Result2")  # 버튼클릭시 나타나는 설명창
+        openbt_2ndxl = ttk.Button(frm2, text="Result2", command=self.select_2ndxl)  # name
+        openbt_2ndxl_ttp = CreateToolTip(openbt_2ndxl, "Select Result2")  # explanation window
         openbt_2ndxl.grid(column=1, row=3, sticky=tkinter.W)
         openbt_2ndxl['command'] = self.select_2ndxl
         display_box2 = ttk.Label(frm2, textvariable=self.filename_var2, width=30)
@@ -1322,7 +1322,7 @@ class ARPAGO(object):
 
 
 def excel_diff1(df_OLD, df_NEW):
-    # 차이점 나타내기
+    # Show Difference
     dfDiff = df_NEW.copy()
     newRows = []
 
@@ -1349,7 +1349,7 @@ def excel_diff(path_OLD, path_NEW, index_col):
     df_OLD = pd.read_excel(path_OLD, index_col=index_col).fillna(0)
     df_NEW = pd.read_excel(path_NEW, index_col=index_col).fillna(0)
 
-    # 차이점 나타내기
+    # Show Difference
     dfDiff = df_NEW.copy()
     newRows = []
 
@@ -1369,7 +1369,7 @@ def excel_diff(path_OLD, path_NEW, index_col):
         else:
             newRows.append(row)
 
-    # 비교값 엑셀 형식(시트 이름, 순서등)
+    # Comparison Excel Format(Sheet name, procedure)
     fname = '{} vs {}.xlsx'.format(path_OLD.stem, path_NEW.stem)
     writer = pd.ExcelWriter(fname, engine='xlsxwriter')
 
@@ -1382,7 +1382,7 @@ def main():
     path_OLD = Path('offset_old.xlsx')
     path_NEW = Path('offset_new.xlsx')
 
-    # Data의 index column이 뭔지 알려줌
+    # Show what is index column of Data
     df = pd.read_excel(path_NEW)
     index_col = df.columns[0]
     print('\nIndex column: {}\n'.format(index_col))
