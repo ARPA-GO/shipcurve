@@ -33,7 +33,7 @@ Among them, **hydrostatic curve** which is based on all ship calculations was pr
   
 * User not having offset table
   1. Use ***Lisp*** to create offset table
-  > Refer to manual page.(이 부분에 리습 설명서 쪽수 적으면 좋을듯)
+  > Refer to manual page.53
   2. As above, Click ***Input File*** and select offset table
   3. According to the user's purpose, click ***Calculation Sheet*** or ***Hydrostatic Curve***  
 #### We add 'comparison' button  
