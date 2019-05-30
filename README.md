@@ -17,7 +17,7 @@ Among them, **hydrostatic curve** which is based on all ship calculations was pr
   Recommend installing anaconda and other necessary libraries.    
 ### Installing  
 1. python  
-  User wants to use python, should use editing programs such as jupyter notebook or pycharm.
+  User who wants to use python, should use editing programs such as jupyter notebook or pycharm.
 2. .exe file  
   User wants to use an exe file in the form of a program, can download it from the url below.
   https://drive.google.com/open?id=1QNXKc0-pwct7xsZWkVGubp9pcGPgKCwM  
